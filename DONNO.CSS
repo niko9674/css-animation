@@ -2,7 +2,7 @@
 .sprite {
     width: 400px;
     height: 400px;
-    background: url(Ikke-angivet-2_Tegnebræt\ 1.png) 0 0 no-repeat;
+    background: url(bleedingeyes.png) 0 0 no-repeat;
     animation: play 2s steps(8) infinite;
 }
 @keyframes play {

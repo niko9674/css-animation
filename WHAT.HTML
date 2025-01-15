@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>bleeding eye</title>
-    <link href="DONNO.CSS" rel="stylesheet" type="text/CSS">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sprite Animation</title>
+  <style>
+    .sprite {
+      width: 400px;
+      height: 400px;
+      background: url('bleedingeyes.png') 0 0 no-repeat;
+      animation: play 2s steps(8) infinite;
+    }
+    @keyframes play {
+      0% {
+        background-position: 0px;
+      }
+      100% {
+        background-position: -3200px;
+      }
+    }
+  </style>
 </head>
 <body>
-   <img src="Ikke-angivet-2_Tegnebræt 1.png" alt="sorrow" />
-   <div class="sprite"></div> 
+  <div class="sprite"></div>
 </body>
 </html>
